@@ -23,15 +23,8 @@ DemoApp::Application.configure do
   config.action_dispatch.best_standards_support = :builtin
 
   # Do not compress assets
-<<<<<<< HEAD
   #config.assets.compress = false
 
   # Expands the lines which load the assets
   #config.assets.debug = true
-=======
-  config.assets.compress = false
-
-  # Expands the lines which load the assets
-  config.assets.debug = true
->>>>>>> c7282c1547f45fc423b6d0f49dce0964b7bf38d5
 end

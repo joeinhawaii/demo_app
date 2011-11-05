@@ -12,7 +12,6 @@ DemoApp::Application.configure do
   config.serve_static_assets = false
 
   # Compress JavaScripts and CSS
-<<<<<<< HEAD
   #config.assets.compress = true
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
@@ -20,15 +19,6 @@ DemoApp::Application.configure do
 
   # Generate digests for assets URLs
   #config.assets.digest = true
-=======
-  config.assets.compress = true
-
-  # Don't fallback to assets pipeline if a precompiled asset is missed
-  config.assets.compile = false
-
-  # Generate digests for assets URLs
-  config.assets.digest = true
->>>>>>> c7282c1547f45fc423b6d0f49dce0964b7bf38d5
 
   # Defaults to Rails.root.join("public/assets")
   # config.assets.manifest = YOUR_PATH
